@@ -1,0 +1,10 @@
+# NPM/Yarn.
+/node_modules/
+/yarn-error.log
+
+# macOS.
+.DS_Store
+
+# Build and dist/ files.
+/build/
+/dist/
