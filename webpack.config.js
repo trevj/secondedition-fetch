@@ -1,11 +1,11 @@
 const path = require("path");
 
 module.exports = {
-  mode: "development",
+  mode: "production",
   entry: "./build/index.js",
   output: {
     path: path.resolve(__dirname, "dist"),
-    filename: "secondedition.js",
+    filename: "umd.js",
     library: "se",
     libraryTarget: "umd",
   },
